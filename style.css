@@ -72,14 +72,30 @@ footer {
 
   main {
     width: 100%;
-    display: block;
+    flex-direction: column;
   }
 
   .main-box {
-    width: 100%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
   }
 
-  img {
+  .main-box:last-child {
+    margin-bottom: 0;
+    margin-right: auto;
+  }
+
+  .box-img1 {
+    max-width: 768px;
+  }
+
+  .box-img2 {
+    max-width: 768px;
+  }
+
+  .box-img3 {
     max-width: 768px;
   }
 }
